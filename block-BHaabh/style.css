@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 16px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.header{
+background-color: rgb(83,133,193);
+height: 200px;
+color: #fff;
+}
+.brand {
+    color: #fff;
+}
+.brand{
+    float: left;
+}
+.nav a{
+color: #fff;
+}
+.nav{
+    float:right ;
+}
+.text{
+    text-align: center;
+    font-size: 24px;
+}
+.container1{
+    width: 1200px;
+    padding: 12px 16px;
+   
+}
+.article1{
+    float:right;
+    width:400px;
+    
+}
+img{
+    width: 150px;
+    height: 150px;
+    /* float: left; */
+}
+
+.team{
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: rgb(83,133,193);
+}
+
+.img-cont{
+    margin:20px;
+     /* border:1px solid green;  */
+    display:inline-block;
+    background-color:rgb(83,133,193);
+    width: 200px;
+    
+}
+
+h1,h2, p{
+    text-align: center;
+    font-size: 24px;
+    margin: 16px;
+}
+ .section-4{
+    width: 800px;
+    height: 400px;
+    float: left;
+ }
+.container-box1{
+    width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.box2-inline-block{
+    display: inline-block;
+    width: 40%;
+}
+
+.box3-inline-block{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+}
+footer{
+    background-color:rgb(83,133,193);
+    font-size: 32px;
+    text-align: center;
+
+}
+footer a{
+    color: #fff;
+    margin: 16px;
+}
+
